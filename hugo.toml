@@ -29,6 +29,8 @@ theme = 'relearn'
     # This list's own screenshots, randomized behind each page's title banner.
     # Cropped 2.4:1 from Quest captures; the banner scales its height with the
     # viewport, so a taller crop shows the whole frame on narrow screens.
+    # Every cover ships an @2x sibling, so the banner can use image-set().
+    coverRetina = '@2x'
     coverImages = [
       'ss-river-lodge.webp',
       'ss-cloud-sea.webp',
