@@ -26,3 +26,21 @@ These pages will cover what you need to install the list, set it up, and underst
 - Advanced Landscape Depth: Features smart mesh layering on mountains, dirt cliffs, roads, and shorelines alongside BENDr, which injects realistic shadow depth and blending onto landscapes—cleverly bypassing VR's ENB terrain limitations to create a striking optical illusion of physical depth and texture variation.
 - Bespoke "Synergy" ENB: A custom ENB preset highly optimized for VR to deliver crisp daytime contrast, vibrant color accuracy, and deep, realistic nights that reward torch and light spell gameplay. (Community Shaders is an option as well.)
 - Lightweight Lighting: Combines core Lux suite elements (Lux/Lux Orbis) with Crossroads of Skyrim as a highly optimized, lightweight alternative for seamless transitions without plugin bloat.
+
+### True Binaural Audio Isolation
+
+- HRTF Spatial Accuracy: Powered by Binaural 3D Surround Sound (HRTF) and True 3D Sound. Track dragons, spell trajectories, or sneaking enemies purely by ear with pinpoint 360-degree directional tracking.
+- Acoustic Fingerprints: Acoustic Space Improvement Fixes simulates real-world physics. Massive stone dungeons, cramped wooden taverns, and damp caves each possess a distinctly modeled echo and reverb profile.
+- Immersive Soundscapes: Integrated audio overhauls like Regional Sounds Expansion replace generic ambient loops with dynamic, location-specific nature, weather, and environmental audio.
+
+### Balanced Gameplay & Slow-Burn Economy
+
+- Systemic Consistency: Built on the Simonrim suite (Adamant, Mysticism, Thaumaturgy, Mundus, Manbeast, Sacrosanct) for a cohesive perk and magic system.
+- Dynamic Combat: Enemies utilize advanced combo frameworks via Attack - MCO, SCAR VR, and SkyTactics.
+- Progression & Scarcity: Features the Experience framework alongside SkyPatcher dynamics scaling back high-tier loot via Scarcity SE and Trade and Barter.
+
+### Seamless VR Engineering & Clean Architecture
+
+- Engine Optimization: Tools like eFPS, Disk Cache Enabler, and VRAMr guarantee a stutter-free experience.
+- Industry-Leading MO2 Layout: Built with a hyper-organized, color-coded, and flawless category structure. Includes a sequential, dead-simple step-by-step setup section right in Mod Organizer 2 to eliminate configuration anxiety.
+- Plug-and-Play Simplicity: Automates setup via an MCM Recorder profile and natively integrates OpenComposite Unleashed to bypass SteamVR performance overhead completely.
