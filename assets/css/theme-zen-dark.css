@@ -2,7 +2,7 @@
    A copy of the shared module's, with the brand primary set to this list's
    teal. Hugo unions assets and the site wins, so this file overrides the
    module's copy. --PRIMARY-color drives the breadcrumb, the active sidebar
-   entry, and the menu accents; the article link colour comes separately from
+   entry, and the menu accents; the article link color comes separately from
    --VARIABLE-LINK-color in _site-palette.scss, so both need setting. */
 :root {
   /* zen-dark */

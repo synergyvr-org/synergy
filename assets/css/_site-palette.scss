@@ -5,7 +5,7 @@
 // partials, so keep the full set even where a value isn't obviously "gold" or
 // "blue" any more.
 //
-// The colours come from the logo, which runs a fully saturated ember gradient
+// The colors come from the logo, which runs a fully saturated ember gradient
 // from #ff700f through #ffdf0f. Those are tempered here: full saturation glares
 // against a dark page, so the accents sit around a third of the way down in
 // lightness with pale text over them.
@@ -46,9 +46,9 @@
   --mgo-note1: #2a4a5233;
   --mgo-note2: #58b8c466;
 
-  // The MO2 separator colours (--mo2-*) come from the module as a shared
+  // The MO2 separator colors (--mo2-*) come from the module as a shared
   // default. Override them here once Synergy's own load-order gradients are
-  // known, since every list colour-codes its MO2 sections differently.
+  // known, since every list color-codes its MO2 sections differently.
 }
 
 #R-topbar > .topbar-wrapper {

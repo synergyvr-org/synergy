@@ -41,7 +41,7 @@ theme = 'relearn'
         from = 'End of List'
         stops = ['#e8913a']
     # coverImages is deliberately unset until this list has its own screenshots.
-    # Without it the cover randomiser simply doesn't run. The Skyrim art behind
+    # Without it the cover randomizer simply doesn't run. The Skyrim art behind
     # alert asides comes from the shared module.
 [caches]
   [caches.images]
