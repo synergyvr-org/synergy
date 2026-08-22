@@ -52,12 +52,15 @@
 
   // Chrome. These come from the module's _variables.scss, which the manifest
   // imports *before* this file, so a site can lift them without a module
-  // change. Kept a shade darker than the content area so the sidebar and topbar
-  // still read as chrome.
-  --INTERNAL-MENU-SECTIONS-BG-color: #1b2228;
-  --INTERNAL-MENU-HEADER-BG-color: #1b2228;
-  --INTERNAL-TOPBAR-BG-color: #1b2228;
-  --INTERNAL-MENU-HEADER-BORDER-color: #1b2228;
+  // change.
+  //
+  // Lighter than the content area rather than darker: the logo has a pale misty
+  // lake inside its ring, and against dark chrome that disc read as a hole
+  // punched in the sidebar. Lifting the panel lets the logo sit in it instead.
+  --INTERNAL-MENU-SECTIONS-BG-color: #3a4653;
+  --INTERNAL-MENU-HEADER-BG-color: #3a4653;
+  --INTERNAL-TOPBAR-BG-color: #3a4653;
+  --INTERNAL-MENU-HEADER-BORDER-color: #3a4653;
 
   // The MO2 separator colors (--mo2-*) come from the module as a shared
   // default. Override them here if Synergy's load-order gradients ever need to
