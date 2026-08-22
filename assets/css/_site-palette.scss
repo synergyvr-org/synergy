@@ -38,10 +38,18 @@
   --mgo-logo-bg1: #2b343d;
   --mgo-logo-bg2: #262f37;
 
-  // Asides: alert runs ember, "by the way" runs cyan, note sits between
-  --mgo-alert-bg1: #5e2a14;
-  --mgo-alert-bg2: #f0a03c55;
-  --mgo-alert-bg3: #7d4a1c;
+  // Asides: alert runs hot, "by the way" runs cyan, note sits between.
+  //
+  // The alert takes its heat from the flame half of the logo (#ff700f rising to
+  // #ffdf0f) rather than the muddy rust it had before: a deep ember-crimson base
+  // climbing to a vivid translucent orange. Against the cool slate page it reads
+  // genuinely hot, and it stays clear of the cyan doing the accent work.
+  //
+  // Only bg1 and bg2 are visible — see the stop-order note in _asides.scss.
+  --mgo-alert-title: rgba(58, 10, 4, 0.85);
+  --mgo-alert-bg1: #6e1408;
+  --mgo-alert-bg2: #ff8a1e66;
+  --mgo-alert-bg3: #c2410c;
   --mgo-gradient1: #7d4a1c;
   --mgo-gradient2: #5e2a14;
   --mgo-gradient3: #f0a03c;
