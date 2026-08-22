@@ -26,6 +26,20 @@ theme = 'relearn'
     logoAlt = 'Synergy VR, a mod list for Skyrim VR'
     footerCredit = 'Synergy VR by [Synergy Team](https://synergyvr.org/)'
     footerCredit2 = 'Docs by Davey'
+
+    # Load-order separator colors, matching this list's MO2 sections.
+    [params.synergy.modlist]
+      subtree = ['#7ec8e3', '#2d6c88']
+      subtreeRoot = 'START HERE - EXPAND TO SETUP'
+      titlePrefix = 'Synergy VR - Beta Release'
+      [[params.synergy.modlist.bands]]
+        stops = ['#f0a03c', '#c2661c', '#5a2f14']
+      [[params.synergy.modlist.bands]]
+        from = 'AI Improvements'
+        stops = ['#2a5f9e', '#16314f']
+      [[params.synergy.modlist.bands]]
+        from = 'End of List'
+        stops = ['#e8913a']
     # coverImages is deliberately unset until this list has its own screenshots.
     # Without it the cover randomiser simply doesn't run. The Skyrim art behind
     # alert asides comes from the shared module.
