@@ -3,6 +3,8 @@ title = 'Synergy VR'
 type = 'home'
 +++
 
+<h1><a href="/images/synergy@2x.webp"><img src="/images/synergy.webp" srcset="/images/synergy@2x.webp 2x" alt="Synergy VR, a mod list for Skyrim VR"></a></h1>
+
 **Synergy VR** is a highly engineered, comprehensive overhaul for Skyrim VR built on a simple philosophy: stability, performance, and maximum immersion. True to its name, "Synergy" ensures hundreds of deeply integrated systems for combat, lighting, audio, and physics work in perfect harmony to deliver a seamless, high-end "Vanilla Enhanced" world.
 
 {{< aside type="alert" title="Under construction" >}}
