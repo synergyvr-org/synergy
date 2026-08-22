@@ -26,6 +26,17 @@ theme = 'relearn'
     logoAlt = 'Synergy VR, a mod list for Skyrim VR'
     footerCredit = 'Synergy VR by [Synergy Team](https://synergyvr.org/)'
     footerCredit2 = 'Docs by Davey'
+    # This list's own screenshots, randomized behind each page's title banner.
+    # Cropped 2.4:1 from Quest captures; the banner scales its height with the
+    # viewport, so a taller crop shows the whole frame on narrow screens.
+    coverImages = [
+      'ss-river-lodge.webp',
+      'ss-cloud-sea.webp',
+      'ss-snowy-pines.webp',
+      'ss-autumn-aspens.webp',
+      'ss-ivy-farmstead.webp',
+      'ss-windmill-road.webp',
+    ]
 
     # Load-order separator colors, matching this list's MO2 sections.
     [params.synergy.modlist]
@@ -40,9 +51,7 @@ theme = 'relearn'
       [[params.synergy.modlist.bands]]
         from = 'End of List'
         stops = ['#e8913a']
-    # coverImages is deliberately unset until this list has its own screenshots.
-    # Without it the cover randomizer simply doesn't run. The Skyrim art behind
-    # alert asides comes from the shared module.
+    # The Skyrim art behind alert asides comes from the shared module.
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

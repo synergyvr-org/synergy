@@ -5,52 +5,65 @@
 // partials, so keep the full set even where a value isn't obviously "gold" or
 // "blue" any more.
 //
-// The colors come from the logo, which runs a fully saturated ember gradient
-// from #ff700f through #ffdf0f. Those are tempered here: full saturation glares
-// against a dark page, so the accents sit around a third of the way down in
-// lightness with pale text over them.
+// Cyan leads. The logo's dragon runs #5bdefa–#94f5ff, and the list's own
+// screenshots are bright daylight Skyrim: turquoise water, blue sky, white mist.
+// So the accent furniture MGO renders in gold is cyan here, and ember is held
+// back for what should feel warm or urgent — alert asides, and the warm half of
+// the load order.
 //
-// Links are teal rather than another shade of ember, so they stay obviously
-// clickable instead of blending into the accent furniture.
+// The surfaces are lifted out of near-black into a cool slate: still a dark
+// theme, but airier and bluer, closer to those screenshots than to MGO's murk.
 
 :root {
-  // Links
-  --VARIABLE-LINK-color: #58b8c4;
-  --VARIABLE-LINK-HOVER-color: #8ed4dc;
+  // Links, close to the logo's cyan without glaring
+  --VARIABLE-LINK-color: #6fd3e8;
+  --VARIABLE-LINK-HOVER-color: #a3e8f5;
 
-  // The ember accent, carrying button pills, file names, controller glyphs
-  --mgo-btn-inline: #c4711f99;
-  --mgo-gold-dark: #c4711f;
-  --mgo-gold: #e8913a;
-  --mgo-gold-trans: #f0a03c33;
+  // Primary accent: button pills, file names, controller glyphs, checkmarks.
+  // Cyan rather than ember, which also settles the clash where a pill sat
+  // directly against a controller glyph in running text — they agree now.
+  --mgo-btn-inline: #2f7f9399;
+  --mgo-gold-dark: #2f7f93;
+  --mgo-gold: #4fb3c9;
+  --mgo-gold-trans: #6fd3e833;
 
-  // Accents: ember red, and teal as the cool counterweight
-  --mgo-red: #a8371c;
-  --mgo-blue: #2a4a52;
-  --mgo-blue2: #3e8c99;
+  // Ember, kept for warmth and warning
+  --mgo-red: #b8501f;
+  --mgo-blue: #2b3d4a;
+  --mgo-blue2: #46788f;
 
-  // Surfaces, warmed slightly so they sit under the ember rather than fight it
-  --mgo-bg: #1c1917;
-  --mgo-logo-bg1: #262220;
-  --mgo-logo-bg2: #221e1c;
+  // Surfaces: cool slate. The page tile is a translucent overlay, so --mgo-bg
+  // is what actually sets the page color.
+  --mgo-bg: #222a31;
+  --mgo-logo-bg1: #2b343d;
+  --mgo-logo-bg2: #262f37;
 
-  // Asides: alert runs hot, "by the way" runs cool, note sits between
-  --mgo-alert-bg1: #5a2015;
-  --mgo-alert-bg2: #f0a03c66;
-  --mgo-alert-bg3: #7a3a18;
-  --mgo-gradient1: #7a3a18;
-  --mgo-gradient2: #5a2015;
+  // Asides: alert runs ember, "by the way" runs cyan, note sits between
+  --mgo-alert-bg1: #5e2a14;
+  --mgo-alert-bg2: #f0a03c55;
+  --mgo-alert-bg3: #7d4a1c;
+  --mgo-gradient1: #7d4a1c;
+  --mgo-gradient2: #5e2a14;
   --mgo-gradient3: #f0a03c;
-  --mgo-btw1: #1f3f4666;
-  --mgo-btw2: #3e8c99cc;
-  --mgo-note1: #2a4a5233;
-  --mgo-note2: #58b8c466;
+  --mgo-btw1: #1e3a4666;
+  --mgo-btw2: #46788fcc;
+  --mgo-note1: #2b3d4a33;
+  --mgo-note2: #6fd3e866;
+
+  // Chrome. These come from the module's _variables.scss, which the manifest
+  // imports *before* this file, so a site can lift them without a module
+  // change. Kept a shade darker than the content area so the sidebar and topbar
+  // still read as chrome.
+  --INTERNAL-MENU-SECTIONS-BG-color: #1b2228;
+  --INTERNAL-MENU-HEADER-BG-color: #1b2228;
+  --INTERNAL-TOPBAR-BG-color: #1b2228;
+  --INTERNAL-MENU-HEADER-BORDER-color: #1b2228;
 
   // The MO2 separator colors (--mo2-*) come from the module as a shared
-  // default. Override them here once Synergy's own load-order gradients are
-  // known, since every list color-codes its MO2 sections differently.
+  // default. Override them here if Synergy's load-order gradients ever need to
+  // differ from MGO's.
 }
 
 #R-topbar > .topbar-wrapper {
-  --VARIABLE-LINK-HOVER-color: #8ed4dc;
+  --VARIABLE-LINK-HOVER-color: #a3e8f5;
 }

@@ -6,8 +6,8 @@
    --VARIABLE-LINK-color in _site-palette.scss, so both need setting. */
 :root {
   /* zen-dark */
-  --PRIMARY-color: rgba( 88, 184, 196, 1 ); /* brand primary color: Synergy teal */
-  --PRIMARY-HOVER-color: rgba( 142, 212, 220, 1 ); /* brand primary hover color */
+  --PRIMARY-color: rgba( 111, 211, 232, 1 ); /* brand primary color: Synergy cyan */
+  --PRIMARY-HOVER-color: rgba( 163, 232, 245, 1 ); /* brand primary hover color */
   --SECONDARY-color: var( --PRIMARY-color ); /* brand secondary color */
   --SECONDARY-HOVER-color: var( --PRIMARY-HOVER-color ); /* brand secondary hover color */
   --MENU-BORDER-color: rgba( 71, 71, 71, 1 ); /* border color between menu and content */
