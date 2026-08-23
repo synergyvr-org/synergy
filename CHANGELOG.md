@@ -9,6 +9,21 @@ is based on [Keep a Changelog](https://keepachangelog.com/).
 
 Synergy VR is still in development, and so are these docs.
 
+## 2026-08-23
+
+### Added
+- A **show in list** button on every row of the load order. Filter down to the mod you're after, then click its row (or the crosshair at its right edge) and the filter drops away, leaving that mod highlighted where it actually sits in the list, with its folders opened around it. That's usually the question a filter can't answer: not whether a mod is in the list, but what loads next to it.
+- More in-game screenshots in the cover rotation.
+
+### Changed
+- The load order starts with its folders closed, so the page opens as an outline of the list's sections instead of fourteen hundred mod names. Hit **Expand all** if you'd rather have the lot.
+- The filter box searches versions as well as mod names.
+- Rewrote the Load Order intros to explain all of the above.
+- Page titles sit centered on their cover images now, rather than down at the bottom.
+
+### Fixed
+- Button and filename pills no longer leave a gap before the punctuation that follows them.
+
 ## 2026-08-22
 
 ### Added
