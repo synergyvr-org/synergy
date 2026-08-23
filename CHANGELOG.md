@@ -22,6 +22,7 @@ Synergy VR is still in development, and so are these docs.
 - Page titles sit centered on their cover images now, rather than down at the bottom.
 
 ### Fixed
+- The seam between the sidebar and the topbar. Three separate hairlines ran down that edge in grays borrowed from the theme's near-black defaults, so against the slate they read as a dark, two-tone gap rather than as a border. The sidebar and the topbar are one continuous panel now.
 - Button and filename pills no longer leave a gap before the punctuation that follows them.
 
 ## 2026-08-22
