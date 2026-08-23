@@ -38,6 +38,12 @@ theme = 'relearn'
       'ss-autumn-aspens.webp',
       'ss-ivy-farmstead.webp',
       'ss-windmill-road.webp',
+      'ss-misty-dock.webp',
+      'ss-aurora-shore.webp',
+      'ss-stone-arch.webp',
+      'ss-hot-spring.webp',
+      'ss-starlit-gate.webp',
+      'ss-thatched-village.webp',
     ]
 
     # Load-order separator colors, matching this list's MO2 sections.
