@@ -51,11 +51,18 @@ theme = 'relearn'
       subtree = ['#7ec8e3', '#2d6c88']
       subtreeRoot = 'START HERE - EXPAND TO SETUP'
       titlePrefix = 'Synergy VR - Beta Release'
+      # One continuous ramp over every section, taken from the colors the list
+      # itself uses in MO2: burnt orange fading to black across the content half,
+      # then black deepening into blue down the rest. Sampled from MO2's own
+      # pane, where it's a straight line in RGB (red 164 to 0 and green 82 to 0
+      # over the first 22 sections, then blue 0 to 242 over the remaining 19).
+      #
+      # It used to be two bands, orange-to-brown and then a separate blue, which
+      # put a hard edge at AI Improvements where the second band began. Black in
+      # the middle is what lets the two halves meet without a seam.
       [[params.synergy.modlist.bands]]
-        stops = ['#f0a03c', '#c2661c', '#5a2f14']
-      [[params.synergy.modlist.bands]]
-        from = 'AI Improvements'
-        stops = ['#2a5f9e', '#16314f']
+        stops = ['#a45200', '#000000', '#0000f2']
+      # MO2 gives the end marker the same orange as the list's title banner.
       [[params.synergy.modlist.bands]]
         from = 'End of List'
         stops = ['#e8913a']

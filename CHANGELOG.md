@@ -20,6 +20,7 @@ Synergy VR is still in development, and so are these docs.
 - The filter box searches versions as well as mod names.
 - Rewrote the Load Order intros to explain all of the above.
 - Page titles sit centered on their cover images now, rather than down at the bottom.
+- The load order's section colors are one continuous ramp, taken from the list's own MO2 pane: burnt orange fading to black down the content half, then black deepening into blue through the rest. Before, the blue was a second, separate gradient that started at AI Improvements, which put a hard edge in the middle of the list.
 
 ### Fixed
 - The seam between the sidebar and the topbar. Three separate hairlines ran down that edge in grays borrowed from the theme's near-black defaults, so against the slate they read as a dark, two-tone gap rather than as a border. The sidebar and the topbar are one continuous panel now.
