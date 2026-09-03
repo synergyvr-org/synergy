@@ -43,7 +43,7 @@
   // The alert takes its heat from the flame half of the logo (#ff700f rising to
   // #ffdf0f) rather than the muddy rust it had before: a deep ember-crimson base
   // climbing to a vivid translucent orange. Against the cool slate page it reads
-  // genuinely hot, and it stays clear of the cyan doing the accent work.
+  // hot, and it stays clear of the cyan doing the accent work.
   //
   // Only bg1 and bg2 are visible — see the stop-order note in _asides.scss.
   --mgo-alert-title: rgba(58, 10, 4, 0.85);
@@ -70,9 +70,30 @@
   --INTERNAL-TOPBAR-BG-color: #3a4653;
   --INTERNAL-MENU-HEADER-BORDER-color: #3a4653;
 
-  // The MO2 separator colors (--mo2-*) come from the module as a shared
-  // default. Override them here if Synergy's load-order gradients ever need to
-  // differ from MGO's.
+  // MO2 mockup colors for the onboarding page's little replicas of MO2's left
+  // pane. The class names in the module are MGO-semantic (--mo2-ocu,
+  // --mo2-nvidia, and so on) because that's the list they were written for; the
+  // comment beside each says which folder it stands for here.
+  //
+  // Two families, because the module fixes the label color per class: the ones
+  // below that render white text need a dark background, the rest render black
+  // text and need a light one. That lands close to MO2 anyway, where the step
+  // headers are pale and the subfolders deepen. Ratios are label-on-background.
+  //
+  // Light, black label:
+  --mo2-start: #7ec8e3;        // START HERE            11.3:1
+  --mo2-runtime: #6bbcd8;      // Step 1 - Runtime        9.8:1
+  --mo2-perf: #6bbcd8;         // Step 2 - ENB Preset     9.8:1
+  --mo2-grass: #6bbcd8;        // Step 4 - Bodies         9.8:1
+  --mo2-optional: #6bbcd8;     // OPTIONAL MODS           9.8:1
+  --mo2-cs: #5aadcb;           // Step 3 - Performance    8.3:1
+  --mo2-fps: #5aadcb;          // Utilities               8.3:1
+  // Dark, white label:
+  --mo2-ocu: #35708a;          // Open Composite          5.5:1
+  --mo2-convenience: #35708a;  // Convenience             5.5:1
+  --mo2-steamvr: #2f6379;      // Steam VR                6.6:1
+  --mo2-nvidia: #2f6379;       // (unused since the ENB subfolder went away) 6.6:1
+  --mo2-immersion: #2f6379;    // Immersion               6.6:1
 }
 
 #R-topbar > .topbar-wrapper {

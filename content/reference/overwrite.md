@@ -6,7 +6,7 @@ weight = 88
 
 At the bottom of the list on the left side of Mod Organizer, you'll see an entry labeled _Overwrite_. It may appear grayed-out when you first install MGO, but once you've played it should be either white-on-orange, or red-on-gray.
 
-_Overwrite_ is there to catch any new files that are written to disk during program execution. For example, the first time you run MGO, [Community Shaders](/reference/shader-cache/) will write compiled shaders to {{< file folder-open>}}Overwrite{{< /file >}}. 
+_Overwrite_ is there to catch any new files that are written to disk during program execution. The first time you run Synergy VR, a handful of mods will drop freshly generated settings and caches into {{< file folder-open>}}Overwrite{{< /file >}}. 
 
 {{< caption name="mo2-overwrite" type="webp" >}}
 _Overwrite_ appears at the bottom of the list on the left side of Mod Organizer 2.
@@ -30,4 +30,4 @@ Right-click _Overwrite_ and select _Open in Explorer_ to browse the contents.
 Example of the contents of an _Overwrite_ folder after a single play session.
 {{< /caption >}}
 
-Aside from Community Shaders, MCMs may write to _Overwrite_. Utilities like BodySlide and DynDOLOD put their output there as well. I recommend treating this folder as though its contents could be lost at any time. That shouldn't happen out of the blue, but don't treat it as permanent storage. For things like BodySlide output, LODs, and the like, it's cleaner to move the files out of _Overwrite_ and into an actual mod.
+MCMs may write to _Overwrite_. Utilities like BodySlide and DynDOLOD put their output there as well. I recommend treating this folder as though its contents could be lost at any time. That shouldn't happen out of the blue, but don't treat it as permanent storage. For things like BodySlide output, LODs, and the like, it's cleaner to move the files out of _Overwrite_ and into an actual mod.

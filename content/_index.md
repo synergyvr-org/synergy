@@ -26,7 +26,7 @@ These pages will cover what you need to install the list, set it up, and underst
 ### Brilliant Visual Depth & VR-Focused Clarity
 
 - Advanced Landscape Depth: Features smart mesh layering on mountains, dirt cliffs, roads, and shorelines alongside BENDr, which injects realistic shadow depth and blending onto landscapes—cleverly bypassing VR's ENB terrain limitations to create a striking optical illusion of physical depth and texture variation.
-- Bespoke "Synergy" ENB: A custom ENB preset highly optimized for VR to deliver crisp daytime contrast, vibrant color accuracy, and deep, realistic nights that reward torch and light spell gameplay. (Community Shaders is an option as well.)
+- Bespoke "Synergy" ENB: A custom ENB preset highly optimized for VR to deliver crisp daytime contrast, vibrant color accuracy, and deep, realistic nights that reward torch and light spell gameplay.
 - Lightweight Lighting: Combines core Lux suite elements (Lux/Lux Orbis) with Crossroads of Skyrim as a highly optimized, lightweight alternative for seamless transitions without plugin bloat.
 
 ### True Binaural Audio Isolation
