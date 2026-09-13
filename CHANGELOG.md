@@ -12,6 +12,11 @@ Synergy VR is still in development, and so are these docs.
 ## 2026-08-23
 
 ### Added
+- RC36 load order, with diff from RC35.
+
+## 2026-08-23
+
+### Added
 - A **show in list** button on every row of the load order. Filter down to the mod you're after, then click its row (or the crosshair at its right edge) and the filter drops away, leaving that mod highlighted where it actually sits in the list, with its folders opened around it. That's usually the question a filter can't answer: not whether a mod is in the list, but what loads next to it.
 - More in-game screenshots in the cover rotation.
 

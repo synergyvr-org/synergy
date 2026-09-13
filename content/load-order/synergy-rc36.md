@@ -1,9 +1,9 @@
 +++
-title = 'Synergy VR RC35'
+title = 'Synergy VR RC36'
 weight = 10
 +++
 
-The load order for **RC35**, exported from MO2's mod list. Folders match the sections you
+The load order for **RC36**, exported from MO2's mod list. Folders match the sections you
 see in Mod Organizer, so this reads top to bottom the same way your left pane does. They
 start closed, so you get an outline of the list before you get every mod in it. Open the
 ones you're curious about, or hit {{< btn-inline >}}Expand all{{< /btn-inline >}}.
@@ -18,4 +18,8 @@ the list, it's what loads next to it.
 Mod names link to their Nexus pages where one exists, and the marker beside each mod shows
 whether it's enabled or disabled by default.
 
-{{< modlist "synergy-rc35.csv" "all" "Testing Tools - NOT FOR RELEASE" >}}
+{{< modlist "synergy-rc36.csv" "all" "Testing Tools - NOT FOR RELEASE" >}}
+
+## Differences from RC3
+
+{{< modlist-diff base="synergy-rc35.csv" list="synergy-rc36.csv" base-label="RC35" list-label="RC36" >}}
