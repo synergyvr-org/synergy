@@ -9,6 +9,14 @@ is based on [Keep a Changelog](https://keepachangelog.com/).
 
 Synergy VR is still in development, and so are these docs.
 
+## 2026-09-19
+
+### Added
+- RC37 load order, with diff from RC36.
+
+### Changed
+- Onboarding page updated to reflect changed in RC37 (a few different defaults, some removals, some additions).
+
 ## 2026-08-23
 
 ### Added

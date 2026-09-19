@@ -6,7 +6,7 @@ weight = 30
 Now that Synergy VR is downloaded and installed, you'll manage the list and launch the game through **Mod Organizer 2 (MO2)**.
 
 {{< aside type="btw" title="Full load order" >}}
-If you'd rather just read the whole list, it's on the [Load Order](/load-order/synergy-rc35/) page: every mod, searchable, with links to its Nexus page.
+If you'd rather just read the whole list, it's on the [Load Order](/load-order/synergy-rc36/) page: every mod, searchable, with links to its Nexus page.
 {{< /aside >}}
 
 ## Before you play…
@@ -40,15 +40,15 @@ A _VR runtime_ is the software layer between the game and your headset. Step 1 a
   <i class="fa fa-folder"></i> ▸▸▸ Open Composite
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly"> OpenComposite Unleashed for Skyrim VR
+  <input type="checkbox" class="readonly"> OCU - Enable, Right Click, Open In Explorer, Run Configurator
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly"> OC - ENB Fix (ONLY Enable if Wireless &amp; Using ENB)
+  <input type="checkbox" class="readonly"> OC - ENB Fix (ONLY Enable if using VD)
 </div>
 
-{{< nexus 171182 >}}OpenComposite Unleashed{{< /nexus >}} is the right choice for most players. It talks to your headset's native OpenXR runtime and skips SteamVR entirely, which usually means a few frames back and one less layer to go wrong.
+{{< nexus 171182 >}}OpenComposite Unleashed{{< /nexus >}} (the "OCU" in that first row) is the right choice for most players. It talks to your headset's native OpenXR runtime and skips SteamVR entirely, which usually means a few frames back and one less layer to go wrong. The row's name doubles as its instructions, and they mean what they say: enable it, then right-click it, choose {{< btn-inline >}}Open in Explorer{{< /btn-inline >}}, and run the Configurator you find there.
 
-Enable **OC - ENB Fix** only if you're playing wirelessly *and* using an ENB preset. If either of those things isn't true, leave it off.
+Enable **OC - ENB Fix** only if you play through Virtual Desktop (the "VD" in the row). Wired, or on another streamer? Leave it off.
 
 ### SteamVR
 
@@ -82,25 +82,21 @@ If you chose OpenComposite, leave all three binding mods **off**. OCU manages co
   <i class="fa fa-folder"></i> ▸▸ Step 2 - Select ENB Preset
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly" checked> HOSE NATIII - SYNERGY ENB - Performance
+  <input type="checkbox" class="readonly"> HOSE NATIII - SYNERGY ENB - Performance
 </div>
 <div class="mod sub">
   <input type="checkbox" class="readonly"> HOSE NATIII - SYNERGY ENB - Quality
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly"> Scenery ENB VR - LUX Edition
-</div>
-<div class="mod sub">
-  <input type="checkbox" class="readonly"> SNIP's ENB - REALISM (WIP)
+  <input type="checkbox" class="readonly" checked> SNIP's ENB - REALISM
 </div>
 
-**HOSE NATIII - SYNERGY ENB - Performance** is the default preset at the moment. It's built for this list and tuned for VR, with nice daylight and nights dark enough that carrying a torch is worthwhile (immersion!).
+**SNIP's ENB - REALISM** is now the default preset. It was previously labeled as a work in progress, but now it's the default.
 
-The others are alternatives, not additions, so enable _one_ at most:
+The others are alternatives, not additions. Enable _one_ ENB preset at most:
 
-* **HOSE NATIII - SYNERGY ENB - Quality** is the same as HOSE'S preset with things cranked up for those with GPU power to spare.
-* {{< nexus 35545 >}}Scenery ENB VR - LUX Edition{{< /nexus >}} is a different look entirely, built around the list's Lux lighting.
-* **SNIP's ENB - REALISM (WIP)** is a work in progress (hence the "WIP") and is currently only really tuned for exterior daytime.
+* **HOSE NATIII - SYNERGY ENB - Performance** is the previous default. It was built for this list and tuned for VR, with nice daylight and nights dark enough that carrying a torch is worthwhile (immersion!).
+* **HOSE NATIII - SYNERGY ENB - Quality** is the same as HOSE's preset with things cranked up for those with GPU power to spare.
 
 ---
 ## Step 3 — Performance Options
@@ -157,6 +153,9 @@ Whenever you enable or disable an optional mod, run {{< btn-inline >}}Tools{{< /
   <i class="fa fa-folder"></i> ▸▸▸ Convenience
 </div>
 <div class="mod sub">
+  <input type="checkbox" class="readonly"> Weightless NG
+</div>
+<div class="mod sub">
   <input type="checkbox" class="readonly"> VRIK Closed Fist
 </div>
 <div class="mod sub">
@@ -172,18 +171,15 @@ Whenever you enable or disable an optional mod, run {{< btn-inline >}}Tools{{< /
   <input type="checkbox" class="readonly"> Paraphernalia - VR Dragon Riding
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly"> Unread Books Glow SSE with MCM
-</div>
-<div class="mod sub">
   <input type="checkbox" class="readonly"> More Gold for Merchants - SkyPatcher
 </div>
 
+* {{< nexus 93796 >}}Weightless NG{{< /nexus >}} removes the weight from things that clutter your inventory (books, potions, gems, and the like), so hauling your traveling library costs you nothing.
 * {{< nexus 182410 >}}VRIK Closed Fist{{< /nexus >}} closes your hands while your weapons are drawn, which makes it clearer whether the game considers you to be in combat.
 * {{< nexus 5098 >}}Unlimited Sprinting{{< /nexus >}} removes the stamina drain from sprinting. On by default.
-* {{< nexus 91644 >}}Fuz Ro D-oh{{< /nexus >}} adds support for unvoiced dialogue, keeping subtitles on screen long enough to read.
 * {{< nexus 105045 >}}Insects Begone REDUX{{< /nexus >}} removes the spiders and bugs.
+* {{< nexus 91644 >}}Fuz Ro D-oh{{< /nexus >}} adds support for unvoiced dialogue, keeping subtitles on screen long enough to read.
 * {{< nexus 106120 >}}Paraphernalia - VR Dragon Riding{{< /nexus >}} is a lightweight take on dragon riding as fast travel. No requirements, and safe to add mid-playthrough.
-* {{< nexus 20679 >}}Unread Books Glow{{< /nexus >}} puts a glow on any book you haven't read yet. Adjust it with its MCM.
 * **More Gold for Merchants** ({{< nexus 115157 >}}Wealthy Merchants{{< /nexus >}} on Nexus) gives traders more gold via SkyPatcher, so unburdening your pack doesn't require as many trips.
 
 ### Immersion
@@ -207,7 +203,7 @@ Whenever you enable or disable an optional mod, run {{< btn-inline >}}Tools{{< /
   <input type="checkbox" class="readonly" checked> No Enemybar and no Names
 </div>
 <div class="mod sub">
-  <input type="checkbox" class="readonly"> Swap Drop and Hold Redux - VR
+  <input type="checkbox" class="readonly" checked> Swap Drop and Hold Redux - VR
 </div>
 
 * {{< nexus 76830 >}}Durability VR{{< /nexus >}} degrades weapons and armor with use. This applies to yours, your followers', and your enemies', and it's highly configurable.
@@ -215,7 +211,7 @@ Whenever you enable or disable an optional mod, run {{< btn-inline >}}Tools{{< /
 * {{< nexus 154803 >}}DovaVR Locomotion{{< /nexus >}} drives movement from arm swings instead of the thumbstick. You will look ridiculous, and you will get your steps in.
 * {{< nexus 16613 >}}Be Seated{{< /nexus >}} lets you sit down more or less anywhere — a tavern bench, a rock in the wilderness — and actually eat or drink there.
 * **No Enemybar and no Names** ({{< nexus 17812 >}}Minimal Enemy Healthbar VR{{< /nexus >}} on Nexus) is on by default. The mod offers several variants. This is the one that drops both the floating health bar and the enemy's name.
-* {{< nexus 185816 >}}Swap Drop and Hold Redux{{< /nexus >}} lets you grab a weapon to equip it, tap and hold the trigger to drop it, or yank your equipped weapon across to the other hand to swap. No menus involved.
+* {{< nexus 185816 >}}Swap Drop and Hold Redux{{< /nexus >}} lets you grab a weapon to equip it, tap and hold the trigger to drop it, or yank your equipped weapon across to the other hand to swap. No menus involved, and now on by default.
 
 ### Utilities
 
